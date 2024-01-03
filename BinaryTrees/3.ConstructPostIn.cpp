@@ -1,6 +1,6 @@
 /* https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ */
 
-// TC = O(N) , SC = O(N)
+// TC = O(NlogN) , SC = O(N)
 class Solution {
 private: 
         TreeNode* constructFromPreIn(vector<int> &inorder, vector<int> &postorder, int &postIndex, int inStart, int inEnd, unordered_map <int, int> &mp, int n) {
